@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color:pink;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    border: 10px solid pink;
+    margin-top: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+    width: 300px;
+}
+
+.project img {
+    width: 20%;
+    height: auto;
+    display: flex;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: pink;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#projects{
+    display: flex;
+}
